@@ -1,0 +1,53 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap')
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+body{
+    height: 60vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+}
+.container{
+    position: relative;
+    max-width: 250px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 10px 20px 20px;
+    background:rgb(57, 21, 124) ;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05)
+}
+.display{
+    height: 80px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: rgb(17, 17, 17);
+    pointer-events: none;
+}
+.buttons{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.buttons button{
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+    background-color: rgb(235, 178, 178);
+    cursor: pointer;
+}
+.buttons button:hover{
+    transform: scale(0.09);
+}
+.operator{
+    color: rgb(100, 102, 236);
+} */
